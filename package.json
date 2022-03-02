@@ -17,7 +17,8 @@
   },
   "keywords": [
     "pushid",
-    "uid"
+    "uid",
+    "generator"
   ],
   "author": "Pavel Wolf",
   "license": "MIT",
