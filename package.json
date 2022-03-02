@@ -1,0 +1,33 @@
+{
+  "name": "@dwlib/pushid",
+  "version": "1.0.0",
+  "description": "PushID",
+  "main": "lib/index.js",
+  "exports": {
+    "require": "./lib/index.js",
+    "import": "./lib/index.mjs"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwlib-js/pushid.git"
+  },
+  "keywords": [
+    "pushid",
+    "uid"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwlib-js/pushid/issues"
+  },
+  "homepage": "https://github.com/dwlib-js/pushid#readme",
+  "dependencies": {
+    "@dwlib/abstract": "^1.0.2",
+    "@dwlib/internal-slots": "^1.0.0",
+    "@dwlib/primordials": "^1.0.2"
+  }
+}
