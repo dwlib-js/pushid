@@ -6,19 +6,17 @@
 ## Usage
 ```javascript
 // CJS
-const pushid = require('@dwlib/pushid');
+const PushID = require('@dwlib/pushid');
+const PushIDCreate = require('@dwlib/pushid/create');
+const PushIDDecode = require('@dwlib/pushid/decode');
+const PushIDGenerate = require('@dwlib/pushid/generate');
+const PushIDGenerator = require('@dwlib/pushid/generator');
+const PushIDTimestamp = require('@dwlib/pushid/timestamp');
 // ESM
 import PushID from '@dwlib/pushid';
-import * as pushid from '@dwlib/pushid';
-// Module Exports
-const {
-  PushID,
-  BASE64URL,
-  BASE62,
-  BASE58
-} = pushid;
-
-PushID.BASE64URL.alphabet; // => '-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz'
-PushID.BASE62.alphabet; // => '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-PushID.BASE58.alphabet; // => '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+import PushIDCreate from '@dwlib/pushid/create';
+import PushIDDecode from '@dwlib/pushid/decode';
+import PushIDGenerate from '@dwlib/pushid/generate';
+import PushIDGenerator from '@dwlib/pushid/generator';
+import PushIDTimestamp from '@dwlib/pushid/timestamp';
 ```
